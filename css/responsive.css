@@ -1,0 +1,117 @@
+
+@media all and (min-width: 320px) {
+  
+  header {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  header > img {
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+  nav > ul > li {
+    justify-content: flex-end;
+    margin-bottom: 0.5em;
+  }
+
+  .box-paragraph {
+    margin-top: 1em;
+  }
+  .hero {
+    width: 100%;
+  }
+
+  .hero .container {
+    flex-direction: column;
+  }
+
+  .hero-heading {
+    margin-top: 3em;
+  }
+
+  .box-paragraph {
+   font-size: 50%;
+  }
+}
+
+@media all and (min-width: 550px) {
+  
+  header {
+    width: 100%;
+  }
+
+  header > img {
+    width: 15%;
+    justify-content: flex-start;
+  }
+
+  nav {    
+    justify-content: flex-end;
+    }
+  
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .hero-heading {
+    margin-top: 2em; 
+  } 
+}
+
+@media all and (min-width: 700px) {
+  
+  header {
+    width: 80%;
+  }
+
+  header > img {
+    width: 40%;
+    justify-content: flex-start;
+  }
+
+  nav {
+    justify-content: flex-end;
+
+    }
+  
+  nav > ul > li {
+    display: inline-block;
+    margin-left: 2em;
+  }
+
+  .hero {
+    width: 80%;
+  }
+
+  .hero-heading {
+    margin-top: 2em; 
+  } 
+}
+
+@media all and (min-width: 1140px) {
+
+  header > img {
+    width: 30%;
+    justify-content: flex-start;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    margin-left: 3em;
+  }
+
+  .hero {
+    width: 80%;
+  }
+
+  .box-paragraph {
+   font-size: 100%;
+  }
+}
+
